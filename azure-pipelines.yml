@@ -13,6 +13,12 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet restore
+- task: DotNetCoreCLI@2
+  displayName: 'Install dotnetsay'
+  inputs:
+    command: custom
+    projects: '**/*.csproj'
+    custom: tool
+    arguments: 'install -g dotnetsay'
   
 
