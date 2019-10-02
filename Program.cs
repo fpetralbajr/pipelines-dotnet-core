@@ -7,7 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-// test 20190828
+// test 20191002   by fpj
 namespace pipelines_dotnet_core
 {
     public class Program
