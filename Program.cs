@@ -7,7 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-// test 20191002   lesson on commit    more pa jud small
+// test 20191002   change on branch
 namespace pipelines_dotnet_core
 {
     public class Program
