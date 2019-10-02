@@ -21,7 +21,7 @@ namespace pipelines_dotnet_core
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container. changes in master   new
+        // This method gets called by the runtime. Use this method to add services to the container. edit this file
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<CookiePolicyOptions>(options =>
